@@ -8,4 +8,4 @@
 
 第一次进入快照页面时列表是空白的，这时您可以点击主页右下角的 **保存当前快照** 按钮，随后等待一段时间。保存成功后在页面上方会显示当前快照的时间戳。此时列表仍然为空，不用疑惑，去更新应用吧！回来会看到惊喜。
 
-<img src="./img/snapshot_create.webp" alt="snapshot_create" style="zoom:30%;" /> <img src="./img/snapshot_list.webp" alt="snapshot_list" style="zoom:30%;" />
+<img src="./img/snapshot_create.jpg" alt="snapshot_create" style="zoom:30%;" /> <img src="./img/snapshot_list.jpg" alt="snapshot_list" style="zoom:30%;" />
