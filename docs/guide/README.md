@@ -23,6 +23,22 @@ LibChecker 还有着一些特色功能：
 - 包特性分析，查看 App 是否是 [Split APKs](https://developer.android.com/studio/build/configure-apk-splits)、是否使用了 [Kotlin](https://en.wikipedia.org/wiki/Kotlin_(programming_language)) 来编写
 - 快照，将当前所有应用的主要信息保存，与未来的某一时刻进行对比
 
+## 基础知识
+
+[什么是原生库架构](/What-is-Native-Library-Architecture.md)
+
+[什么是注册组件](/What-is-Registered-Component.md)
+
+## 使用方法
+
+[知名库标记](/Marked-Popular-Library.md)
+
+[库引用统计](/Library-Reference-Statistics.md)
+
+[包特性分析](/Package-Features-Analysis.md)
+
+[快照](/Snapshot-Usage.md)
+
 ## 相关信息
 
 **规则仓库：** [LibChecker-Rules](https://github.com/zhaobozhen/LibChecker-Rules)

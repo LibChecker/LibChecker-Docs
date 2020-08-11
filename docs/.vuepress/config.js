@@ -58,7 +58,15 @@ module.exports = {
 }
 
 function getSidebar() {
-  return ['', 'URL-Scheme-Usage', 'Root-Mode-Usage', 'Shizuku-Mode-Usage', 'Put-Intent-Extras', 'Adding-Approach']
+  return [
+    '', 
+    'What-is-Native-Library-Architecture', 
+    'What-is-Registered-Component', 
+    'Marked-Popular-Library', 
+    'Library-Reference-Statistics', 
+    'Package-Features-Analysis',
+    'Snapshot-Usage'
+  ]
 }
 
 function getNavbar(prefix, guide, changelog, download) {
