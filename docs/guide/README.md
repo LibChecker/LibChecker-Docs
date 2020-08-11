@@ -25,9 +25,9 @@ LibChecker 还有着一些特色功能：
 
 ## 基础知识
 
-[什么是原生库架构](/guide/What-is-Native-Library-Architecture.md)
+[什么是原生库架构？](/guide/What-is-Native-Library-Architecture.md)
 
-[什么是注册组件](/guide/What-is-Registered-Component.md)
+[什么是注册组件？](/guide/What-is-Registered-Component.md)
 
 ## 使用方法
 
