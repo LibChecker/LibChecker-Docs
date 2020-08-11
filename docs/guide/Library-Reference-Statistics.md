@@ -8,7 +8,7 @@
 
 由于性能考虑，列表默认加载原生库类型，您可以点击右上角的更多按钮切换展示类型。
 
-<img src="E:\Projects\LibChecker-Docs\docs\guide\img\lib_ref_filter.jpg" alt="lib_ref_change_type" style="zoom:50%;" />
+<img src="./img/lib_ref_filter.jpg" alt="lib_ref_change_type" style="zoom:50%;" />
 
 如果您觉得列表项目太多，且库引用数量较少的库无需查看时，您可以在设置项中设置 **库引用阈值**。
 
