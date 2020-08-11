@@ -27,7 +27,7 @@ LibChecker 还有着一些特色功能：
 
 **规则仓库：** [LibChecker-Rules](https://github.com/zhaobozhen/LibChecker-Rules)
 
-**Contact me: ** [absinthe@absinthe.life](mailto:absinthe@absinthe.life)
+**联系我：** [absinthe@absinthe.life](mailto:absinthe@absinthe.life)
 
 ## LibChecker 将要做什么
 
