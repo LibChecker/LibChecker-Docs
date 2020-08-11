@@ -25,7 +25,7 @@ module.exports = {
       description: '应用架构查看'
     }
   },
-  theme: 'reco',
+  theme: 'default-prefers-color-scheme',
   themeConfig: {
     locales: {
       '/': {
@@ -42,9 +42,7 @@ module.exports = {
           '/guide/': getSidebar()
         },
         nav: getNavbar('/', '指南', '更新日志', '下载'),
-        lastUpdated: '最后更新',
-        mode: 'auto', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
-        modePicker: true // 默认 true，false 不显示模式调节按钮，true 则显示
+        lastUpdated: '最后更新'
       }
     },
     displayAllHeaders: true,

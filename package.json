@@ -26,6 +26,6 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
-    "vuepress-theme-reco": "^1.5.5"
+    "vuepress-theme-default-prefers-color-scheme": "^1.1.0"
   }
 }
