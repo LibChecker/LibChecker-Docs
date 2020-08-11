@@ -25,6 +25,7 @@
   "devDependencies": {
     "vuepress": "^1.5.3"
   },
-  "dependencies": {},
-  "description": ""
+  "dependencies": {
+    "vuepress-theme-reco": "^1.5.5"
+  }
 }
