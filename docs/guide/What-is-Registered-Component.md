@@ -32,6 +32,6 @@ App 可以在应用启动的过程中 **动态注册** 四大组件，因此存�
 
 ## 为什么我的 App 中有这些奇怪的组件？
 
-![activity_tinker](\guide\img\activity_tinker.jpg)
+![activity_tinker](./img/activity_tinker.jpg)
 
 很多 App 中会有上图这种重复的活动，这种一般是引入了热更新 SDK。每一个活动只是一个“占位符”，由云端动态注册成为实体活动。
