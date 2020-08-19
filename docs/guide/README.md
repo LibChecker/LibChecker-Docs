@@ -51,3 +51,6 @@ LibChecker 还有着一些特色功能：
 - 自定义规则仓库
 - 快照保存应用权限信息等更多的信息
 - ...
+
+## 思维导图
+[查看](/guide/xmind/LibChecker-XMind.png)
