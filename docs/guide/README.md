@@ -53,4 +53,4 @@ LibChecker 还有着一些特色功能：
 - ...
 
 ## 思维导图
-[查看](/guide/xmind/LibChecker-XMind.png)
+[查看](/guide/Mind-Mapping.md)
