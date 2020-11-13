@@ -2,11 +2,11 @@
 
 嘿！Android 的安装包（APK）文件中存在着大量的文件，我们也许可以从中发现点什么。
 
-## Split APKs
+## Android App Bundles
 
 LibChecker 可以检测安装包是否为 Google Play 分发的 AAB 安装包，详情请参考 [Android App Bundle 简介](https://developer.android.com/guide/app-bundle)。
 
-<img src="./img/split_apks.jpg" alt="split_apks" style="zoom:50%;" />
+<img src="./img/android_app_bundles.jpg" alt="split_apks" style="zoom:50%;" />
 
 ## Kotlin
 
