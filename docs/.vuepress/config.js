@@ -40,10 +40,6 @@ module.exports = config({
             buttonText: "刷新"
           }
         },
-        sidebar: {
-          '/guide/': getSidebar()
-        },
-        nav: getNavbar('/', '指南', '更新日志', '下载'),
         lastUpdated: '最后更新'
       }
     },
@@ -55,6 +51,11 @@ module.exports = config({
     displayAllHeaders: true,
 
     sidebarDepth: 2,
+
+    sidebar: {
+      '/': getSidebar()
+    },
+    nav: getNavbar('/', '指南', '更新日志', '下载'),
 
     serviceWorker: {
       updatePopup: true
