@@ -23,7 +23,7 @@ jobs:
             ${{ runner.os }}-node-modules-
       - name: Install Deps
         if: steps.node-modules.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Build Template
         run: yarn run docs:build
