@@ -1,6 +1,9 @@
-module.exports = {
+const { config } = require("vuepress-theme-hope");
+
+module.exports = config({
   base: '/LibChecker-Docs/',
   title: 'LibChecker',
+  dest: "./dist",
   head: [
     ['link', {
       rel: 'stylesheet',
@@ -25,7 +28,6 @@ module.exports = {
       description: '应用架构查看'
     }
   },
-  theme: 'default-prefers-color-scheme',
   themeConfig: {
     locales: {
       '/': {
@@ -45,17 +47,38 @@ module.exports = {
         lastUpdated: '最后更新'
       }
     },
+
+    author: "Absinthe",
+
+    darkmode: "auto-switch",
+
     displayAllHeaders: true,
+
     sidebarDepth: 2,
+
     serviceWorker: {
       updatePopup: true
     },
+
+    copyright: {
+      status: "global",
+    },
+
+    mdEnhance: {
+      align: true
+    },
+
     repo: 'https://github.com/zhaobozhen/LibChecker-Docs',
+
+    repoLabel: "Github",
+
     docsRepo: 'https://github.com/zhaobozhen/LibChecker-Docs',
+
     docsDir: 'docs',
+
     editLinks: true
   },
-}
+})
 
 function getSidebar() {
   return [

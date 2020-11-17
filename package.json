@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "cleanServe": "vuepress dev docs --no-cache",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -16,16 +17,14 @@
     "url": "git+https://github.com/zhaobozhen/LibChecker-Docs.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Absinthe",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhaobozhen/LibChecker-Docs/issues"
   },
   "homepage": "https://github.com/zhaobozhen/LibChecker-Docs#readme",
-  "devDependencies": {
-    "vuepress": "^1.7.1"
-  },
   "dependencies": {
-    "vuepress-theme-default-prefers-color-scheme": "^1.1.2"
+    "vuepress": "^1.7.1",
+    "vuepress-theme-hope": "^1.5.7"
   }
 }
