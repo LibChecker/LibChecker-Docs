@@ -52,9 +52,6 @@ module.exports = config({
 
     sidebarDepth: 2,
 
-    sidebar: {
-      '/': getSidebar()
-    },
     nav: getNavbar('/', '指南', '更新日志', '下载'),
 
     serviceWorker: {
@@ -80,18 +77,6 @@ module.exports = config({
     editLinks: true
   },
 })
-
-function getSidebar() {
-  return [
-    '', 
-    'What-is-Native-Library-Architecture', 
-    'What-is-Registered-Component', 
-    'Marked-Popular-Library', 
-    'Library-Reference-Statistics', 
-    'Package-Features-Analysis',
-    'Snapshot-Usage'
-  ]
-}
 
 function getNavbar(prefix, guide, changelog, download) {
   return [
