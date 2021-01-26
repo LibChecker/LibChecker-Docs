@@ -1231,15 +1231,15 @@
     event-target-shim "^5.0.1"
     miniprogram-api-typings "^2.10.2"
 
-"@mr-hope/vuepress-plugin-comment@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-comment/-/vuepress-plugin-comment-1.8.4.tgz#594f76cc01293f8cd7ccf6961903b672fada7ad2"
-  integrity sha512-S0hQwda4MjhvqxQ6e0e1VSufPTDrXDuMcB62F4fweC23z9GxZRbLHHiuqBK2Ieqcyhe5K30IBobuRKAZ75Ta8Q==
+"@mr-hope/vuepress-plugin-comment@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-comment/-/vuepress-plugin-comment-1.9.0.tgz#8539c6127b668eb1d5af739c231f2217101bb135"
+  integrity sha512-JUp/oP1lAoSSZHdPnsrXHcyQLHbSBdSvcAE9PzWO5W/FyN6pMyTZGilCpDd7vJAV1Pc41FRPM3mT/OF9if8Gsg==
   dependencies:
-    "@mr-hope/vuepress-plugin-reading-time" "1.8.4"
-    "@mr-hope/vuepress-shared" "1.8.4"
-    "@mr-hope/vuepress-types" "1.8.4"
-    "@mr-hope/vuepress-utils" "1.8.4"
+    "@mr-hope/vuepress-plugin-reading-time" "1.9.0"
+    "@mr-hope/vuepress-shared" "1.9.0"
+    "@mr-hope/vuepress-types" "1.9.0"
+    "@mr-hope/vuepress-utils" "1.9.0"
     "@vssue/api-bitbucket-v2" "^1.4.7"
     "@vssue/api-gitea-v1" "^1.4.7"
     "@vssue/api-gitee-v5" "^1.4.7"
@@ -1251,99 +1251,108 @@
     valine "^1.4.14"
     vssue "^1.4.7"
 
-"@mr-hope/vuepress-plugin-components@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-components/-/vuepress-plugin-components-1.8.4.tgz#bd12e3e92bac88c4a212787e90744bebd935e525"
-  integrity sha512-ddkSs5FEp5dx8UTvk8s0M7STvwBJ3k3FmvOSJfp4Lv3PV/eAnXRyUfOTMJuiyJAarM2OH/2if/48B0jFVAFPkg==
+"@mr-hope/vuepress-plugin-components@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-components/-/vuepress-plugin-components-1.9.0.tgz#33c05048eaee43008ebadc5545e443eb9b270f79"
+  integrity sha512-S2a9gyCzHw+7gBdvZeV0gZyn89SZD3qGSMAYdCusJso7Nh5vQeh5+xJ+hAqta+Jpimuw3Fi96N3WzDGg8BEG6A==
   dependencies:
-    "@mr-hope/vuepress-shared" "1.8.4"
-    "@mr-hope/vuepress-types" "1.8.4"
-    "@mr-hope/vuepress-utils" "1.8.4"
+    "@mr-hope/vuepress-shared" "1.9.0"
+    "@mr-hope/vuepress-types" "1.9.0"
+    "@mr-hope/vuepress-utils" "1.9.0"
     "@types/lodash.debounce" "^4.0.6"
     lodash.debounce "^4.0.8"
     screenfull "^5.1.0"
     vue-router "^3.4.9"
 
-"@mr-hope/vuepress-plugin-copy-code@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-copy-code/-/vuepress-plugin-copy-code-1.8.4.tgz#2a364992180d53809127799d3fc206d7892ea0e6"
-  integrity sha512-ZpB8R+VzSCzOuHfb1MNUsjOKY720+rGkxtvZf2/40JTyEqB/HfY0f5f0ZrKxTJaGwwpsdPOa4gjl+HZh/I2tpg==
+"@mr-hope/vuepress-plugin-copy-code@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-copy-code/-/vuepress-plugin-copy-code-1.9.0.tgz#76b48cd1cb98ecb1d40d7f9cc3c518a2033eb676"
+  integrity sha512-e1dJljAFCk9n4RRKt+Os8P6B02DEFSer/hwYVMhysHH7xD+gSgOFtpaIou2EQDwk2cLHOz91uzVTerRH6A4p/w==
   dependencies:
-    "@mr-hope/vuepress-shared" "1.8.4"
-    "@mr-hope/vuepress-types" "1.8.4"
+    "@mr-hope/vuepress-shared" "1.9.0"
+    "@mr-hope/vuepress-types" "1.9.0"
     balloon-css "^1.2.0"
 
-"@mr-hope/vuepress-plugin-last-update@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-last-update/-/vuepress-plugin-last-update-1.8.4.tgz#1944444fed3b87acc34d7c01c9ecbac40e688827"
-  integrity sha512-JOLrP2m5yihdj1GWtgsTgIZYO4QV9GoRpnL2iCOkGdD27FK3PQ+VFncSRxL06Fr5nRdf0Xz0C8guAZaVvL066w==
+"@mr-hope/vuepress-plugin-feed@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-feed/-/vuepress-plugin-feed-1.9.0.tgz#9b9dbb900128279041d3533c14bfa21195da2b1e"
+  integrity sha512-c+elqSUQcDOtwuT9ONWoI+Y1cBGklH+yzW27jXetAVO6F8z08+g5e/ZQZMw0zbQsPvD6cB5ysWlTros2ZWHm6w==
   dependencies:
-    "@mr-hope/vuepress-types" "1.8.4"
+    chalk "^4.1.0"
+    xml-js "^1.6.11"
+
+"@mr-hope/vuepress-plugin-last-update@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-last-update/-/vuepress-plugin-last-update-1.9.0.tgz#2124e803af5822b23cd90771b22e319344abe7c4"
+  integrity sha512-yVte7NST8lDV3918WuYurVdv55qxauJzuDwwWfzCQkVr1GtPebApXLHL4Zm8W6YhnxuraqlAzKAaJ1VDJFXnPQ==
+  dependencies:
+    "@mr-hope/vuepress-types" "1.9.0"
     "@types/cross-spawn" "^6.0.2"
     cross-spawn "^7.0.3"
-    dayjs "^1.10.3"
+    dayjs "^1.10.4"
 
-"@mr-hope/vuepress-plugin-pwa@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-pwa/-/vuepress-plugin-pwa-1.8.4.tgz#89d61791bb795306818ae304cfe17115d67699ac"
-  integrity sha512-uJCgimdJ1w3yZUsYTLK/sEuObILZszHeDPF6CwfWsMfWuOzLjZHmyHHC/4WTjOCNZHsnqWapf4FxAZ4EDdxqHA==
+"@mr-hope/vuepress-plugin-pwa@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-pwa/-/vuepress-plugin-pwa-1.9.0.tgz#1b7f8d8355937857e0ba569ef5d9831867b6eb49"
+  integrity sha512-wTgStbDBeciT4HDnJqPOi1TMqM5pX4WWmkLd28hJQzZVhUVWZBxoobS8HTKaWcWG+c/oYLvBmCePq3XIRkIOBg==
   dependencies:
-    "@mr-hope/vuepress-shared" "1.8.4"
-    "@mr-hope/vuepress-types" "1.8.4"
+    "@mr-hope/vuepress-shared" "1.9.0"
+    "@mr-hope/vuepress-types" "1.9.0"
     "@types/fs-extra" "^9.0.6"
     chalk "^4.1.0"
     fs-extra "^9.1.0"
     register-service-worker "^1.7.2"
     workbox-build "^6.0.2"
 
-"@mr-hope/vuepress-plugin-reading-time@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-reading-time/-/vuepress-plugin-reading-time-1.8.4.tgz#3190ea9db5ffd04d969398cd27ae2dc5c4eedbaf"
-  integrity sha512-cRl7EWPN5rowchuWy3ce4JM1Qi5Fvnjnc4mbZZQepuVpUxhedmlWZFbreNun3GJfd2dEtlAt+3PufoZenCoQnw==
+"@mr-hope/vuepress-plugin-reading-time@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-reading-time/-/vuepress-plugin-reading-time-1.9.0.tgz#7943a54720b052f284342767a6fe93126a85783b"
+  integrity sha512-WF/ajXhlo5LSyvAGwpQvtizoAazqf3c3WC/pwvzr5J+6Bk+CQAAWrYb40rl4I3h2nLjXHjDh5Is666yLJnELng==
 
-"@mr-hope/vuepress-plugin-seo@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-seo/-/vuepress-plugin-seo-1.8.4.tgz#a76b94989f926b73b993143e51a2e9225b67efdb"
-  integrity sha512-6RPy/fXTd0xW0m1SlrWteqsHNLZtKUoE3xTWRdiB0Jc4X1CQ9Jkh7bcKNkhIbE7aKjhdFf1fdkyZjwXnYaDEHA==
+"@mr-hope/vuepress-plugin-seo@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-seo/-/vuepress-plugin-seo-1.9.0.tgz#2c7fb1e658d9bb7c82523b8e3431ae3a9918e666"
+  integrity sha512-rTP8Ljd7JelkWPWw/d0oWZfpK7HyUJTONrrfNPvqk+W7YmtAaViZYj5ZeVp6ch22hvkPqzQFY6q9Pe3g8y9XqQ==
   dependencies:
-    "@mr-hope/vuepress-types" "1.8.4"
+    "@mr-hope/vuepress-types" "1.9.0"
     "@types/fs-extra" "^9.0.6"
     chalk "^4.1.0"
     fs-extra "^9.1.0"
 
-"@mr-hope/vuepress-plugin-sitemap@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-sitemap/-/vuepress-plugin-sitemap-1.8.4.tgz#57678e998a75e6eab9984d998394995c29572c58"
-  integrity sha512-xh2h5ijf2EP74RpLMtbGmiybt+fmc1x4WEJVCvROnJqiZ2ywO3xlQCJkrIjXA/VIOXyS5HFjD8FoZoYj3zev4Q==
+"@mr-hope/vuepress-plugin-sitemap@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-sitemap/-/vuepress-plugin-sitemap-1.9.0.tgz#daff72acb6150ffccc39e16b364c6b60c1f6847d"
+  integrity sha512-uTO9SqOpziOxkUEfeh+rw9bLvrBxC7koDDBFpCZgCSNButFTYBLRHS20XYb9rFvm8RN058qJ2XaxkjwQIV3Z6Q==
   dependencies:
-    "@mr-hope/vuepress-types" "1.8.4"
+    "@mr-hope/vuepress-types" "1.9.0"
     "@types/fs-extra" "^9.0.6"
     chalk "^4.1.0"
     fs-extra "^9.1.0"
     sitemap "^6.3.5"
 
-"@mr-hope/vuepress-shared@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared/-/vuepress-shared-1.8.4.tgz#58163dde8ab871f57e052a2dcb04f216bbb8c309"
-  integrity sha512-ALeJG35Zil2xGVn5RRMy+0rsu0GgQmDty1ZyvMUKRO79DlsPL+KFzMWVXN6a17h1Gy6l/7a1beuuPlimjVK1FQ==
+"@mr-hope/vuepress-shared@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared/-/vuepress-shared-1.9.0.tgz#6e3df12e1b170d4d53abbd9e9d3f77bd21c365ef"
+  integrity sha512-AkKZ833OMf2SH6WZawHmcXsqIQDhZI6fiXs9FN9Kt10crfHUdjx2M3byx4GsWfp1vphi/tBdFcusvmF3nVkU9w==
 
-"@mr-hope/vuepress-theme-types@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-theme-types/-/vuepress-theme-types-1.8.4.tgz#b3212bb0198b1a74990c15a4b51f0c34de4f07ce"
-  integrity sha512-/1iWkU++gyRcwp7Jfxgj0V+mpZYr0g6oabGXf1isckfjRLDVUhNHfAsds65bt40uk0Ir0RX5f8zvSddrG3kURw==
+"@mr-hope/vuepress-theme-types@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-theme-types/-/vuepress-theme-types-1.9.0.tgz#0b2736cf9e4739fd775e32080c8bcab36f75fe11"
+  integrity sha512-EuU83S1fSct0sYZwXreXV4Ku1LfOS6VaboK4uqBdY6TpCznxgMGRoFJ65HscOF1mZ2YU9E0aj5/6zGGWFPJjbQ==
   dependencies:
-    "@mr-hope/vuepress-plugin-comment" "1.8.4"
-    "@mr-hope/vuepress-plugin-last-update" "1.8.4"
-    "@mr-hope/vuepress-plugin-pwa" "1.8.4"
-    "@mr-hope/vuepress-plugin-reading-time" "1.8.4"
-    "@mr-hope/vuepress-types" "1.8.4"
-    vuepress-plugin-md-enhance "1.8.4"
-    vuepress-plugin-photo-swipe "1.8.4"
+    "@mr-hope/vuepress-plugin-comment" "1.9.0"
+    "@mr-hope/vuepress-plugin-feed" "1.9.0"
+    "@mr-hope/vuepress-plugin-last-update" "1.9.0"
+    "@mr-hope/vuepress-plugin-pwa" "1.9.0"
+    "@mr-hope/vuepress-plugin-reading-time" "1.9.0"
+    "@mr-hope/vuepress-types" "1.9.0"
+    vuepress-plugin-md-enhance "1.9.0"
+    vuepress-plugin-photo-swipe "1.9.0"
 
-"@mr-hope/vuepress-types@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-types/-/vuepress-types-1.8.4.tgz#2f1fea8bdfe97df272c6df33223c9aeed333c982"
-  integrity sha512-39OjmbDbs/HEulqBpiICIE1LRbmg2iOlI+DDh5JhetFS219NqOvg3p1lPQ4bl1OGBOgGEw2Pqw9LOWyfZ8XeOA==
+"@mr-hope/vuepress-types@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-types/-/vuepress-types-1.9.0.tgz#6293878d6f0f708490c4ddfbfc2257377a6308a9"
+  integrity sha512-JdykhbcnxengPrGshv+eRLFhOFRYQldypvxkaKX2wHHoYQgKn00DrwaynwvfwXe9cKusLHnmVBEE399NI7zh8g==
   dependencies:
     "@types/express" "^4.17.11"
     "@types/markdown-it" "^12.0.1"
@@ -1354,10 +1363,10 @@
     vue-loader "^15.9.6"
     webpack-chain "^6.5.1"
 
-"@mr-hope/vuepress-utils@1.8.4":
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-utils/-/vuepress-utils-1.8.4.tgz#47745cf4fc58efca62136e090140a838bf163dc3"
-  integrity sha512-C3rQ9pTZ6Oqc/n5EAHd+xNKdedIj4aJi8m+ofhE42MGt2Wi/jXWKq3RgSziR4vefTsz/WSqrp4Lwtb1r5jFGTg==
+"@mr-hope/vuepress-utils@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-utils/-/vuepress-utils-1.9.0.tgz#db383e0257f282237d3d119ee44cf0909b29551e"
+  integrity sha512-d+S0SnNnKBAK3nHGq+xP1ch9Qs/Hzsnq5oQg9Sgbhz3BKhaluQ4tQjmQTC4tS/7yoAy4+uimIg4i7tGbs5Lw6g==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -3815,10 +3824,10 @@ date-fns@^1.29.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
   integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
 
-dayjs@^1.10.3:
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.3.tgz#cf3357c8e7f508432826371672ebf376cb7d619b"
-  integrity sha512-/2fdLN987N8Ki7Id8BUN2nhuiRyxTLumQnSQf9CNncFCyqFsSKb9TNhzRYcC8K8eJSJOKvbvkImo/MKKhNi4iw==
+dayjs@^1.10.3, dayjs@^1.10.4:
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.4.tgz#8e544a9b8683f61783f570980a8a80eaf54ab1e2"
+  integrity sha512-RI/Hh4kqRc1UKLOAf/T5zdMMX5DQIlDxwUe3wSyMMnEbGunnpENCdbUgM+dW7kXidZqCttBrmw7BhN4TMddkCw==
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -9410,12 +9419,12 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-add-this@1.8.4:
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-add-this/-/vuepress-plugin-add-this-1.8.4.tgz#0ac957d757e303dce05a36da51d510183eeb5fe8"
-  integrity sha512-7kIhp0am2D3SkgCVeke6cu4P0XU4ockIU77fTpMsuQ9xT2yD8fPwGBbAp2MVt5eWSViBv0vuQbiQKUBuhC8sQA==
+vuepress-plugin-add-this@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-add-this/-/vuepress-plugin-add-this-1.9.0.tgz#f3058564ce65d620440eaeaa559dbbe93d0cb742"
+  integrity sha512-Me5ncx7B2Z8EoKoTkJ1NWuLy2tuJZSq/tqtHcx34Xyx3mtR4MYlHWHEbEm2jDlGzhq4WWGOi9MFFftjH1Ol7EA==
   dependencies:
-    "@mr-hope/vuepress-types" "1.8.4"
+    "@mr-hope/vuepress-types" "1.9.0"
 
 vuepress-plugin-clean-urls@^1.1.2:
   version "1.1.2"
@@ -9465,13 +9474,13 @@ vuepress-plugin-mailchimp@^1.4.1:
     jsonp "^0.2.1"
     query-string "^6.9.0"
 
-vuepress-plugin-md-enhance@1.8.4:
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-1.8.4.tgz#ddd55713ca5eb2a595bcf2eecc9b6481531d6799"
-  integrity sha512-pSjnqpz1wOsTdFS+J4lPaw9H6tkgJRv9OuduYj2mlhN/PHWRsC1IV9Oo+pifsaVFoI0lOUe8wk+PUfDl17N4Sw==
+vuepress-plugin-md-enhance@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-1.9.0.tgz#fd26581d158ad9f07b25db5aa33f02ea5d54a99b"
+  integrity sha512-thkuxxmiVI2mYsDtpqe+WhT/omht0CTvzpncdhsEAkhBMevX/97SIDZ1Xng1ASeXdrM8SZs7weErSOqc6fNRyg==
   dependencies:
-    "@mr-hope/vuepress-shared" "1.8.4"
-    "@mr-hope/vuepress-types" "1.8.4"
+    "@mr-hope/vuepress-shared" "1.9.0"
+    "@mr-hope/vuepress-types" "1.9.0"
     "@types/hash-sum" "^1.0.0"
     "@types/katex" "^0.11.0"
     "@types/lodash.debounce" "^4.0.6"
@@ -9489,12 +9498,12 @@ vuepress-plugin-named-chunks@^1.1.4:
   resolved "https://registry.yarnpkg.com/vuepress-plugin-named-chunks/-/vuepress-plugin-named-chunks-1.1.4.tgz#c65e121a8d0bbb4201766ec06816a2aa67dae3b7"
   integrity sha512-zCRVmbf10VAf8NcrVLlm1b6eGU3vkc/iLVNvpIL3sBvtCCVaZheT2OlaV0CMPE6OjjTYbMrYXjugu4vcpiXrNQ==
 
-vuepress-plugin-photo-swipe@1.8.4:
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-photo-swipe/-/vuepress-plugin-photo-swipe-1.8.4.tgz#fe013522b88ac0d0a18ffd3abff788e9f22fc788"
-  integrity sha512-fQSoQipWbab+CPFiPXiAr1+dtMtOe43z+AAiOoLBT41aqR03iZKZpHeinXqErJ6+8GjRxxRIP0FKLlAN7EKmGg==
+vuepress-plugin-photo-swipe@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-photo-swipe/-/vuepress-plugin-photo-swipe-1.9.0.tgz#90e7faab31bbb6fff6fc14959b4f37e5c6d71da4"
+  integrity sha512-SoyrzOcIsHF26kcon2nGzkPCU1IbknSgRf8K/LaQ2FbBqwJGaMIikEQda+IRatzF6i/W4tzPeLGL4xCRgnCF2w==
   dependencies:
-    "@mr-hope/vuepress-types" "1.8.4"
+    "@mr-hope/vuepress-types" "1.9.0"
     "@types/photoswipe" "^4.1.1"
     photoswipe "^4.1.3"
 
@@ -9527,22 +9536,23 @@ vuepress-plugin-typescript@^0.3.1:
     cache-loader "^3.0.0"
     ts-loader "^7.0.3"
 
-vuepress-theme-hope@^1.8.4:
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.8.4.tgz#19f14551ec4e2376d3a24f4d7b4c16d622c95d4d"
-  integrity sha512-k6BWXRk9g80DBphe1mZnBimqW4PEDtdpGkMOLwn84D+9FSAjOtY4kBwy9VF5Pw7Qxqb/vTWqG8g/IGZn50Pl+w==
+vuepress-theme-hope@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.9.0.tgz#85fceb8b8b21d1fc6e440335a8db2b0411cd78b3"
+  integrity sha512-YUk00oPPDbWUGx98tCycNIFzIkkLrA/+/IHUP9UV9qkuWTOHnMzuK+lw70Akm+9kmJH57q6vOhgLpDOfmH2grw==
   dependencies:
     "@docsearch/css" "^1.0.0-alpha.28"
     "@docsearch/js" "^1.0.0-alpha.28"
-    "@mr-hope/vuepress-plugin-comment" "1.8.4"
-    "@mr-hope/vuepress-plugin-components" "1.8.4"
-    "@mr-hope/vuepress-plugin-copy-code" "1.8.4"
-    "@mr-hope/vuepress-plugin-last-update" "1.8.4"
-    "@mr-hope/vuepress-plugin-pwa" "1.8.4"
-    "@mr-hope/vuepress-plugin-seo" "1.8.4"
-    "@mr-hope/vuepress-plugin-sitemap" "1.8.4"
-    "@mr-hope/vuepress-shared" "1.8.4"
-    "@mr-hope/vuepress-theme-types" "1.8.4"
+    "@mr-hope/vuepress-plugin-comment" "1.9.0"
+    "@mr-hope/vuepress-plugin-components" "1.9.0"
+    "@mr-hope/vuepress-plugin-copy-code" "1.9.0"
+    "@mr-hope/vuepress-plugin-feed" "1.9.0"
+    "@mr-hope/vuepress-plugin-last-update" "1.9.0"
+    "@mr-hope/vuepress-plugin-pwa" "1.9.0"
+    "@mr-hope/vuepress-plugin-seo" "1.9.0"
+    "@mr-hope/vuepress-plugin-sitemap" "1.9.0"
+    "@mr-hope/vuepress-shared" "1.9.0"
+    "@mr-hope/vuepress-theme-types" "1.9.0"
     "@types/bcryptjs" "^2.4.2"
     "@types/lodash.debounce" "^4.0.6"
     "@types/lodash.throttle" "^4.1.6"
@@ -9550,18 +9560,18 @@ vuepress-theme-hope@^1.8.4:
     "@vuepress/plugin-blog" "^1.9.4"
     bcryptjs "^2.4.3"
     chalk "^4.1.0"
-    dayjs "^1.10.3"
+    dayjs "^1.10.4"
     docsearch.js "^2.6.3"
     lodash.debounce "^4.0.8"
     lodash.throttle "^4.1.1"
     vue-class-component "^7.2.6"
-    vuepress-plugin-add-this "1.8.4"
+    vuepress-plugin-add-this "1.9.0"
     vuepress-plugin-clean-urls "^1.1.2"
     vuepress-plugin-container "^2.1.5"
     vuepress-plugin-copyright "^1.0.2"
-    vuepress-plugin-md-enhance "1.8.4"
+    vuepress-plugin-md-enhance "1.9.0"
     vuepress-plugin-named-chunks "^1.1.4"
-    vuepress-plugin-photo-swipe "1.8.4"
+    vuepress-plugin-photo-swipe "1.9.0"
     vuepress-plugin-smooth-scroll "^0.0.10"
     vuepress-plugin-typescript "^0.3.1"
 
@@ -10017,6 +10027,13 @@ xdg-basedir@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-4.0.0.tgz#4bc8d9984403696225ef83a1573cbbcb4e79db13"
   integrity sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==
+
+xml-js@^1.6.11:
+  version "1.6.11"
+  resolved "https://registry.yarnpkg.com/xml-js/-/xml-js-1.6.11.tgz#927d2f6947f7f1c19a316dd8eea3614e8b18f8e9"
+  integrity sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==
+  dependencies:
+    sax "^1.2.4"
 
 xml@^1.0.1:
   version "1.0.1"
