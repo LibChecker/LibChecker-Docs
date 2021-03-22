@@ -9596,10 +9596,10 @@ vuepress-plugin-typescript@^0.3.1:
     cache-loader "^3.0.0"
     ts-loader "^7.0.3"
 
-vuepress-theme-hope@^1.13.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.13.0.tgz#e124adec103e83025354f46cff130c31f94b122b"
-  integrity sha512-m+b7JPwu8E34rB0mxecqEjDG++UeTwBd3HGRwsp4sYOOjx0PkaZ8xc67JY3QQO1kKVsmTLvjOcYaQHUupMEv1g==
+vuepress-theme-hope@^1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.13.1.tgz#443021e639a8a340f8e87181fed7fd800ec21716"
+  integrity sha512-rhJfYNiV63tvRBYBO6elfrcHRAMgpYG+Pl0OzCNattiDFnZBvrh7xuU5hY4Mpzf2Y+q2TQ1OR7XNdx0OJKjkoQ==
   dependencies:
     "@docsearch/css" "^1.0.0-alpha.28"
     "@docsearch/js" "^1.0.0-alpha.28"
