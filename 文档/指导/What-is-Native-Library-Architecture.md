@@ -27,6 +27,7 @@ CPU 与 ABI 的对照关系如下：
 | ARMv5  | armeabi                         |
 | ARMv7  | armeabi, armeabi-v7a            |
 | ARMv8  | armeabi, armeabi-v7a, arm64-v8a |
+| ARMv9  | arm64-v8a, arm64-v9a            |
 | MIPS   | mips                            |
 | MIPS64 | mips, mips64                    |
 | x86    | x86, armeabi, armeabi-v7a       |
@@ -47,5 +48,5 @@ CPU 与 ABI 的对照关系如下：
 我认为有以下几点原因：
 
 - **升级 64 位对性能提升不大：** 许多 App 使用原生代码只是进行了比较简单的操作，例如反破解逻辑、简单的数学运算等
-- **64 位 so 文件较大：** 通常 64 位的 so 文件会比 32 位的大一些，而且目前只有 Google Play 支持 aab 格式的安装包分发（即 Split APKs），而在全球的软件市场中，App 的体积都是与下载量呈负相关的
+- **64 位 so 文件较大：** 通常 64 位的 so 文件会比 32 位的大一些，而且目前只有 Google Play 和 AppGallery Connect 支持 aab 格式的安装包分发（即 App Bundles），而在全球的软件市场中，App 的体积都是与下载量呈负相关的
 - **上游 SDK 未提供 64 位版本：** 由于 APK 中每种架构都必须提供全部的 so 库，因此 App 中只要有一个 SDK 没有提供 64 位版本，则其他 so 都无法替换为 64 位版本
