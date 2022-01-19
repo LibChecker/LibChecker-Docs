@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zhaobozhen/LibChecker-Docs#readme",
   "dependencies": {
-    "vuepress": "^1.9.5",
+    "vuepress": "^1.9.7",
     "vuepress-theme-hope": "^1.23.0"
   }
 }
