@@ -1420,10 +1420,10 @@
     event-target-shim "^5.0.1"
     miniprogram-api-typings "^2.10.2"
 
-"@mr-hope/vuepress-plugin-comment@1.27.1":
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-comment/-/vuepress-plugin-comment-1.27.1.tgz#aceba7b5079848023e4c9f6ffd5c763d100f7dc6"
-  integrity sha512-TFEOIneKDcWKPxE2zOts0ecketZ5NSYwHIixRRLdKkoDO17uVGW/TfdXhNYVr/o69D/Etd2isnc0EebP8T3icw==
+"@mr-hope/vuepress-plugin-comment@1.27.3":
+  version "1.27.3"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-comment/-/vuepress-plugin-comment-1.27.3.tgz#8e9487d852c7d162b224e37345c4f9202e60df54"
+  integrity sha512-0KpL9K/qO+Jfogse59NU/dkdvWMEWU7WqcfelsQlzEDSoCOaeZMw2QcEC/mMgMltoVYQZs/2vhwge/404EZ0JQ==
   dependencies:
     "@mr-hope/vuepress-plugin-git" "1.25.0"
     "@mr-hope/vuepress-plugin-reading-time" "1.27.1"
@@ -1531,12 +1531,12 @@
   resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared/-/vuepress-shared-1.24.0.tgz#eba6582e861b62227989ff3e396ae44be04ab8f8"
   integrity sha512-6/Vq3eagrsXM35mO/Hdk2ju9dBoEb0EVaPXs5e2KV6hMCZK+3qaxnIBdKdQMpIFBsy92U7GJuHjznpxqH05fxQ==
 
-"@mr-hope/vuepress-theme-types@1.27.1":
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-theme-types/-/vuepress-theme-types-1.27.1.tgz#ef6cfbb05e24f32dc5cda3bc0f1af2b297e63747"
-  integrity sha512-jiRcvp6cyH1/g9QEtD8PWysU2tcgVBE12GypfknR8PxiBt7kTndeaxnOJna9Q5YOdU2zko5ILFwr69AwIRBr8A==
+"@mr-hope/vuepress-theme-types@1.27.3":
+  version "1.27.3"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-theme-types/-/vuepress-theme-types-1.27.3.tgz#ec6b938a66ae0155bb27b90ced5df4935ffa9ba1"
+  integrity sha512-HoFouFq/o9CvEEn/zdmo5uMtxRbO1Xrg+ZPkDGQax1J4qo3D7Az3yF9dav0IJ3/jG1DwOV8zG+DdwiPdUeWJXg==
   dependencies:
-    "@mr-hope/vuepress-plugin-comment" "1.27.1"
+    "@mr-hope/vuepress-plugin-comment" "1.27.3"
     "@mr-hope/vuepress-plugin-feed" "1.27.1"
     "@mr-hope/vuepress-plugin-git" "1.25.0"
     "@mr-hope/vuepress-plugin-pwa" "1.26.0"
@@ -10815,14 +10815,14 @@ vuepress-plugin-typescript@^0.3.1:
     cache-loader "^3.0.0"
     ts-loader "^7.0.3"
 
-vuepress-theme-hope@^1.27.1:
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.27.1.tgz#0bb2fa76986a83bd8b7890c14c2ba966bbfbcd03"
-  integrity sha512-qlmaRl6pO23FDiDD+5bhXaf1EayPqfbpdkiBUNOvHWMqQsXF3xej/ZJEIOrqFr9U+17IPjJxxD5svesXhpU9+w==
+vuepress-theme-hope@^1.27.3:
+  version "1.27.3"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.27.3.tgz#596db1e536f4789949ef7dfbae42b8b48bf3e820"
+  integrity sha512-mmCTxz8g0Y4df2G6pXj5pP11CzXRmsZZE6tB9NDCiXLxWikLMjGwnxHNta/RlfCJaI+2t1m5/6FHAOgJYNeUxA==
   dependencies:
     "@docsearch/css" "^3.0.0-alpha.42"
     "@docsearch/js" "^3.0.0-alpha.42"
-    "@mr-hope/vuepress-plugin-comment" "1.27.1"
+    "@mr-hope/vuepress-plugin-comment" "1.27.3"
     "@mr-hope/vuepress-plugin-components" "1.27.1"
     "@mr-hope/vuepress-plugin-copy-code" "1.26.0"
     "@mr-hope/vuepress-plugin-feed" "1.27.1"
@@ -10832,7 +10832,7 @@ vuepress-theme-hope@^1.27.1:
     "@mr-hope/vuepress-plugin-sitemap" "1.26.0"
     "@mr-hope/vuepress-plugin-smooth-scroll" "1.24.0"
     "@mr-hope/vuepress-shared" "1.24.0"
-    "@mr-hope/vuepress-theme-types" "1.27.1"
+    "@mr-hope/vuepress-theme-types" "1.27.3"
     "@types/bcryptjs" "^2.4.2"
     "@types/lodash.debounce" "^4.0.6"
     "@types/lodash.throttle" "^4.1.6"
