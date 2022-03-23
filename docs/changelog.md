@@ -1,5 +1,10 @@
 # 更新日志
 
+2.2.2
+- 更新依赖
+- 修复了一些问题
+- 现在标记库以 SDK 的方式提供。这意味着您可以轻松地将 LibChecker 中的规则库集成至您的应用。（详情参见：https://github.com/zhaobozhen/LibChecker-Rules-Bundle）
+
 2.2.1
 - 支持了在详情页长按应用图标将其复制到剪贴板
 - 在 Android 12 以上的 Material 3 主题（Alpha）中启用动态颜色
