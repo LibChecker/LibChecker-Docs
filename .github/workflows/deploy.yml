@@ -28,9 +28,8 @@ jobs:
       - name: Build Template
         run: yarn run docs:build
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
