@@ -14,7 +14,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: node-modules
         with:
           path: node_modules/
