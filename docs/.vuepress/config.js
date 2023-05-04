@@ -74,7 +74,7 @@ module.exports = config({
 
     docsDir: 'docs',
 
-    editLinks: true
+    editLinks: false
   },
 })
 
