@@ -10614,7 +10614,7 @@ vuepress-plugin-typescript@^0.3.1:
     cache-loader "^3.0.0"
     ts-loader "^7.0.3"
 
-vuepress-theme-hope@^1.28.5:
+vuepress-theme-hope@^1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/vuepress-theme-hope/-/vuepress-theme-hope-1.30.0.tgz#cb2e8973e382a77418ec1e65019bed769bae82e0"
   integrity sha512-gFscHZ87NomtRReuHT3PeU/uOciQXGu1IiNJdyLI0dbNWwA0BAe+b6yH/xcctCMXz6NTgBjwI6MrzjyGuWdYEA==
@@ -10647,7 +10647,7 @@ vuepress-theme-hope@^1.28.5:
     vuepress-plugin-photo-swipe "1.30.0"
     vuepress-plugin-typescript "^0.3.1"
 
-vuepress@^1.9.7:
+vuepress@^1.9.9:
   version "1.9.9"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.9.9.tgz#75b313f48a21b2eeb435cad52333f26b3b8a7404"
   integrity sha512-CU94W3EdWaCavGx2VSvQJMI/hyv+m/YMdrvJJw67EVfmmJJDb1iTGrilDgLd0qsyrXzBy0Ru9Qi6rkf4IwcOTg==
