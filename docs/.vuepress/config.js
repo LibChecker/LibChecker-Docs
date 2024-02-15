@@ -66,11 +66,11 @@ module.exports = config({
       align: true
     },
 
-    repo: 'https://github.com/zhaobozhen/LibChecker-Docs',
+    repo: 'https://github.com/LibChecker/LibChecker-Docs',
 
     repoLabel: "Github",
 
-    docsRepo: 'https://github.com/zhaobozhen/LibChecker-Docs',
+    docsRepo: 'https://github.com/LibChecker/LibChecker-Docs',
 
     docsDir: 'docs',
 
@@ -81,7 +81,7 @@ module.exports = config({
 function getNavbar(prefix, guide, changelog, download) {
   return [
     { text: guide, link: `${prefix}guide/` },
-    { text: changelog, link: `${prefix}changelog.html` },
-    { text: download, link: `${prefix}download.html` },
+    { text: changelog, link: `${prefix}changelog/index.html` },
+    { text: download, link: `${prefix}download/index.html` },
   ]
 }

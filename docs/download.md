@@ -1,7 +1,4 @@
 # Download
 
-[<img src="./guide/img/google-play-badge.png"
-     alt="Google Play"
-     height="80">](https://play.google.com/store/apps/details?id=com.absinthe.libchecker&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) [<img src="./guide/img/coolapk-badge.png"
-     alt="CoolApk"
-     height="80">](https://www.coolapk.com/apk/com.absinthe.libchecker)
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="323" height="125" />](https://play.google.com/store/apps/details?id=com.absinthe.libchecker)
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" width="323" height="125" />](https://f-droid.org/packages/com.absinthe.libchecker/)
