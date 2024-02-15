@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhaobozhen/LibChecker-Docs.git"
+    "url": "git+https://github.com/LibChecker/LibChecker-Docs.git"
   },
   "keywords": [],
   "author": "Absinthe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zhaobozhen/LibChecker-Docs/issues"
+    "url": "https://github.com/LibChecker/LibChecker-Docs/issues"
   },
-  "homepage": "https://github.com/zhaobozhen/LibChecker-Docs#readme",
+  "homepage": "https://github.com/LibChecker/LibChecker-Docs#readme",
   "dependencies": {
     "vuepress": "^1.9.9",
     "vuepress-theme-hope": "^1.30.0"

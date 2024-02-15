@@ -12,7 +12,7 @@ LibChecker 目前的标记库由主程序本地定义 + 规则仓库云端定义
 
 <img src="./img/marked_library_dialog_not_found.jpg" alt="marked_library_dialog_not_found" style="zoom:50%;" />
 
-这时您可以选择点击弹窗中间的 **协助我们来补充信息**，规则将会以 GitHub issue 的形式被提交，您可能需要一个 GitHub 账户。当然，您也可以直接访问 [LibChecker-Rules](https://github.com/zhaobozhen/LibChecker-Rules) 规则仓库来提交 issue，注意需要按照模板形式提交。
+这时您可以选择点击弹窗中间的 **协助我们来补充信息**，规则将会以 GitHub issue 的形式被提交，您可能需要一个 GitHub 账户。当然，您也可以直接访问 [LibChecker-Rules](https://github.com/LibChecker/LibChecker-Rules) 规则仓库来提交 issue，注意需要按照模板形式提交。
 
 ::: tip 提示
 LibChecker 会检测设备与云端仓库的连通性，只有可以正常访问云端仓库才可以开启库详情弹窗，因此建议您保持网络通畅。国内网络建议选择 Gitee 仓库，国外网络建议选择 GitHub 仓库。

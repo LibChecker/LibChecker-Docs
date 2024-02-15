@@ -4,7 +4,7 @@
 
 LibChecker 最初是我设计给自己用来查看手机里的应用是否使用了 64 位架构的 App。是的，它功能非常简陋。后来，为了学习大厂优秀软件在开发中使用了哪些技术栈，我引入了 **知名库标记** 功能。将我所知晓的、网上有所记载的知名 SDK 组件标识出来，并且做了 **库引用统计**，方便查看。再后来，我发现一款成熟的、用户基数较大的 App，它的主界面和逻辑是不会发生太大变化的。这就产生了我们经常会看到的景象：一款 App 每次更新都像是刷版本号，主体并无任何变化的感知。但其实它的底层可能有翻天覆地的变化。介于此，我借鉴了 [VCS](https://en.wikipedia.org/wiki/Version_control) 的思想，设计并开发出了 **快照** 功能。从始至终，我都是把 Libchecker 当作一款开发者工具来设计的，因此它对于普通用户来说门槛较高，甚至也许不能带给用户什么价值。但是随着越来越多的开发者和极客用户的使用和反馈建议，LibChecker 也在不断地完善自身……
 
-[![Android CI](https://github.com/zhaobozhen/LibChecker/actions/workflows/android.yml/badge.svg)](https://github.com/zhaobozhen/LibChecker/actions/workflows/android.yml)
+[![Android CI](https://github.com/LibChecker/LibChecker/actions/workflows/android.yml/badge.svg)](https://github.com/LibChecker/LibChecker/actions/workflows/android.yml)
 
 ## LibChecker 能做什么？
 
@@ -25,23 +25,23 @@ LibChecker 还有着一些特色功能：
 
 ## 基础知识
 
-[什么是原生库架构？](/guide/What-is-Native-Library-Architecture.md)
+[什么是原生库架构？](/guide/What-is-Native-Library-Architecture/index.html)
 
-[什么是注册组件？](/guide/What-is-Registered-Component.md)
+[什么是注册组件？](/guide/What-is-Registered-Component/index.html)
 
 ## 使用方法
 
-[知名库标记](/guide/Marked-Popular-Library.md)
+[知名库标记](/guide/Marked-Popular-Library/index.html)
 
-[库引用统计](/guide/Library-Reference-Statistics.md)
+[库引用统计](/guide/Library-Reference-Statistics/index.html)
 
-[包特性分析](/guide/Package-Features-Analysis.md)
+[包特性分析](/guide/Package-Features-Analysis/index.html)
 
-[快照](/guide/Snapshot-Usage.md)
+[快照](/guide/Snapshot-Usage/index.html)
 
 ## 相关信息
 
-**规则仓库：** [LibChecker-Rules](https://github.com/zhaobozhen/LibChecker-Rules)
+**规则仓库：** [LibChecker-Rules](https://github.com/LibChecker/LibChecker-Rules)
 
 **联系我：** [absinthe@absinthe.life](mailto:absinthe@absinthe.life)
 
@@ -52,6 +52,3 @@ LibChecker 还有着一些特色功能：
 - 时间线
 - 云端更新本地标记库
 - ...
-
-## 思维导图
-[查看](/guide/Mind-Mapping.md)
