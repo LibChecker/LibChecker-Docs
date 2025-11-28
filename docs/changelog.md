@@ -172,7 +172,7 @@
 - 调整了详情页布局
 
 2.1.13
-- 支持了 Android 12L 的 Activity Embeding API
+- 支持了 Android 12L 的 Activity Embedding API
 - 支持了通过分享的方式进行 apk 分析
 - 修复了八哥
 
